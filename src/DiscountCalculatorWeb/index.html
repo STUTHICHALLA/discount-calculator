@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Discount Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🛍️ Smart Discount Calculator</h1>
+
+        <input type="text" id="productName" placeholder="Enter Product Name">
+
+        <input type="number" id="price" placeholder="Enter Original Price">
+
+        <input type="number" id="discount" placeholder="Enter Discount %">
+
+        <button onclick="calculateDiscount()">Calculate</button>
+
+        <button class="clear-btn" onclick="clearFields()">Clear</button>
+
+        <div class="result" id="result">
+            Final Price: ₹0
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
